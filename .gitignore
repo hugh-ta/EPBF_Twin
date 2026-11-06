@@ -2,3 +2,18 @@ data/
 .venv/
 venv/
 .vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Simulation outputs in testing/
+testing/**/*.dat
+testing/**/*.stl
+testing/**/*.geo
+testing/**/*.rep
+testing/**/*.log
+testing/**/psf-*.txt
+testing/**/bse/
+testing/**/frames*/
+testing/**/run/*.csv
